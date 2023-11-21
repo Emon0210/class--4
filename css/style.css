@@ -1,0 +1,624 @@
+/**********************
+    Global Css Start  
+***********************/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 16px;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+a,
+a:hover {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+
+}
+
+
+
+/*************************
+    Global Css End  
+ ************************/
+
+
+
+
+
+
+/*************************
+     Header Css Start
+ ************************/
+
+
+.header-section {
+
+    width: 100%;
+    background: #F0FFF0;
+    padding: 20px 0px;
+
+}
+
+.header-section .navbar {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header-section .navbar .logo {
+
+    flex-basis: 15%;
+
+}
+
+
+
+.header-section .navbar .logo a img {
+
+    width: 198.07px;
+    height: 59px;
+
+}
+
+
+.header-section .navbar .menu {
+
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header-section .navbar .menu ul {
+
+    margin-top: -14px;
+    padding: 0;
+}
+
+
+.header-section .navbar .menu ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+
+
+}
+
+
+
+
+
+.header-section .navbar .btn {
+
+    flex-basis: 15%;
+    margin-top: -14px;
+
+}
+
+.header-section .navbar .btn a {
+
+    background: #21B573;
+    color: white;
+    border: 1px solid #21B573;
+    border-radius: 35px;
+    padding: 12px 28px;
+
+}
+
+
+
+/*************************
+     Header Css End
+ ************************/
+
+
+
+
+
+
+
+/***************************
+     Banner-Body Css Start
+ ***************************/
+
+.banner {
+
+    width: 100%;
+    background: #F0FFF0;
+}
+
+.banner .banner-inner {
+    display: flex;
+
+}
+
+.banner .banner-inner .content {
+
+    flex-basis: 50%;
+
+    padding-top: 73px;
+    padding-bottom: 70px;
+}
+
+
+.banner .banner-inner .content span {
+
+    color: #FD511A;
+
+}
+
+
+.banner .banner-inner .content h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+
+
+
+}
+
+
+
+.banner .banner-inner .content h1 span {
+
+    color: #21B573;
+
+}
+
+.banner .banner-inner .content p {
+
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 403;
+    margin-top: 20px;
+
+}
+
+
+
+.banner .banner-inner .content .banner-btn {
+
+    margin-top: 45px;
+}
+
+
+
+
+.banner .banner-inner .content .banner-btn a {
+
+    background: #21B573;
+    color: white;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 12px 28px;
+
+}
+
+
+
+
+.banner .banner-inner .image-part {
+
+    flex-basis: 50%;
+}
+
+.banner .banner-inner .image-part img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+/*************************
+     Banner-Body Css End
+ ************************/
+
+
+/*************************
+     Feature-Body Css start
+ **************************/
+
+
+
+
+.feature {
+
+    width: 100%;
+    padding: 50px;
+
+}
+
+
+.feature .feature-inner {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+
+.feature .feature-inner .f-box {
+
+
+
+    padding: 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+
+
+.feature .feature-inner .f-box:hover {
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+    transition: 0.3s;
+
+}
+
+
+
+
+.feature .feature-inner .f-box img {
+    width: 66px;
+    height: 85px;
+
+}
+
+.feature .feature-inner .f-box h4 {
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.feature .feature-inner .f-box p {}
+
+
+
+
+/*************************
+     Feature-Body Css end
+ **************************/
+
+
+
+
+
+
+/*************************
+     Courses-Body Css start
+ **************************/
+
+
+.courses {
+
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.courses .title h2 {
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 64px;
+
+}
+
+
+.courses .courses-inner {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.courses .courses-inner .c-card {
+
+    padding: 25px;
+    margin: 0px 10px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, .10);
+}
+
+
+.courses .courses-inner .c-card img {
+
+    width: 331px;
+    height: 234px;
+
+}
+
+.courses .courses-inner .c-card h3 {
+
+    color: #413960;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+
+}
+
+
+.courses .courses-inner .c-card p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    margin-bottom: 25px;
+}
+
+
+
+
+.courses .courses-inner .c-card .c-btn a {
+
+    background: #21B573;
+    color: white;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    padding: 8px 28px;
+
+
+
+}
+
+
+
+.courses .courses-inner .c-card .c-footer {
+
+
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px;
+    color: #585859;
+}
+
+
+.courses .courses-inner .c-card .c-footer .left {}
+
+.courses .courses-inner .c-card .c-footer .left img {
+
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+
+
+
+}
+
+.courses .courses-inner .c-card .c-footer .left span {}
+
+
+
+
+.courses .courses-inner .c-card .c-footer .right {
+
+    padding-left: 60px;
+
+}
+
+
+.courses .courses-inner .c-card .c-footer .right img {
+
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+
+
+}
+
+.courses .courses-inner .c-card .c-footer .right span {}
+
+
+/*************************
+     Courses-Body Css end
+ **************************/
+
+
+/*****************************
+     testimonial-Body Css start
+ ******************************/
+
+
+
+.testimonial {}
+
+.testimonial .container {}
+
+.testimonial .container .title h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 64px;
+
+}
+
+.testimonial .container .testimonial-inner {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.testimonial .container .testimonial-inner span img {
+
+    /* position: absolute; */
+    width: 120px;
+    height: 120px;
+    left: 353px;
+    top: 1787px;
+    border-radius: 50px;
+    background: (jpg) #C4C4C4;
+
+
+}
+
+.testimonial .container .testimonial-inner span p {
+
+    /* position: absolute; */
+    width: 583px;
+    height: 90px;
+    left: 525px;
+    top: 1796px;
+
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+
+
+}
+
+
+
+
+
+/*****************************
+     testimonial-Body Css end
+ ******************************/
+
+
+
+
+/*****************************
+     footer Css start
+ ******************************/
+
+
+.footer {
+
+    background: #282531;
+    margin-top: 90px;
+}
+
+
+.footer .container {
+
+    background: #282531;
+
+}
+
+
+
+.footer .container .footer-inner {
+
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+
+    padding: 20px;
+    padding-top: 44px;
+
+}
+
+
+
+.footer .container .footer-inner p {
+
+
+    color: white;
+}
+
+
+.footer .container .footer-inner ul li {
+
+
+    list-style-type: none;
+
+    line-height: 30px;
+}
+
+.footer .container .footer-inner ul li h5 {
+
+    font-weight: 700;
+    list-style-type: none;
+    font-size: 18px;
+    display: inline-block;
+
+
+}
+
+
+.footer .container .footer-copyright {
+
+    background: #282531;
+
+}
+
+
+.footer .container .footer-copyright p{
+
+    color: #CDCDCD; 
+    padding-top: 80px;
+    padding-bottom: 40px ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************
+     footer Css end
+ ******************************/
